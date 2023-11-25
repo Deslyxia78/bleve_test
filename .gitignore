@@ -1,2 +1,17 @@
 # Ignore example.bleve index file
 *.bleve
+
+# Ignore binary executables
+*.exe
+*.out
+*.app
+
+# Ignore build and temporary files
+/build/
+/bin/
+/vendor/
+.tmp/
+
+# Ignore the go.sum and go.mod files
+go.sum
+go.mod
